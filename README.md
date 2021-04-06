@@ -1,5 +1,4 @@
-====
-running instructions
+# running instructions
 environments: python 3.8.1
 baseline battle: select the code segment in main() of battle.py and run
 man vs machine: run main() of start_gomoku.py and follow the instruction to play
