@@ -18,8 +18,8 @@ heuristic
 greedy  
 
 # input/output
-input:
-1. board -> 1515 2-D array  
+input:  
+1. board -> 15*15 2-D array  
 contains only 3 possible integers:  
 black token: 2  
 white token: 1  
@@ -27,8 +27,8 @@ blank/null: 0
 2. isBlack -> True(black token)/False(white token)  
 3. chessCount -> number of chess on the current board  
 4. k -> max depth of search, only used in minimax and alpha_beta_pruning  
-output:  
-board -> 1515 2-D array  
+output:    
+board -> 15*15 2-D array  
 
 # status of board
 check(board, isBlack, chessCount)  
@@ -39,7 +39,7 @@ white token: 1
 blank/null: 0  
 2. isBlack -> True(black token)/False(white token)  
 3. chessCount -> number of chess on the current board  
-
+  
 output:  
 1 -> white wins  
 2 -> black wins  
